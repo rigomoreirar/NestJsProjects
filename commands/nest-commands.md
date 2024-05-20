@@ -27,5 +27,11 @@ https://docs.nestjs.com/exception-filters#built-in-http-exceptions
 # A good option as an ORM is prisma, and you can use Neon for db, both of these are good options for doing stuff fast
 # Prisma latest version uses JOINS, so it's better
 
+# For ruther information on postgres prisma migration visit docs
+https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/using-prisma-migrate-typescript-postgresql
+
+# For creating a resource with all CRUD operations from the begining you can use (name in lower case)
+nest g resource $ResourceName 
 
 
+# For rate limiting use npm i @nestjs/throttler 
